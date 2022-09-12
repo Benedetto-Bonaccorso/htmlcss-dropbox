@@ -246,7 +246,8 @@ main{
 }
 
 .companies{
-    width: 33%;
+    width: 33vw;
+    height: 33vw;
     display: flex;
     flex-wrap: wrap;
 }
@@ -254,7 +255,7 @@ main{
 .company{
     height: 50%;
     width: 50%;
-    padding: 4rem;
+    padding: 2.5rem;
     background-color: aqua;
 }
 
@@ -270,5 +271,106 @@ main{
 
 .designit-logo>img{
     width: 40%;
+}
 
+.dropbox-business{
+    text-align: center;
+    width: 100vw;
+    background-color: var(--azure);
+    display: flex;
+    justify-content: center;
+}
+
+.dropbox-business>*{
+    margin: 5rem;
+}
+
+.container>.faq{
+    text-align: left;
+}
+
+.faq{
+    margin-top: 5rem;
+    width: 70vw;
+}
+
+.faq>.container{
+    flex-direction: column;
+    width: 100%;
+    margin-bottom: 5rem;
+}
+
+.faq>.container>h2{
+    margin-bottom: 3rem;
+}
+
+.faq-question:not(:hover)>.faq-answer{
+    display:none
+}
+
+.faq-question:not(:hover){
+    
+}
+
+.faq-question:hover>.faq-answer{
+    margin-top: 1rem;
+}
+
+.faq-question{
+    padding: 2rem 0;
+    border-bottom: 1px solid black;
+}
+
+.first-question{
+    border-top: 1px solid black;
+}
+
+.faq>.container:first-child{
+    
+}
+
+footer{
+    background-color: black;
+}
+
+.footer-bar{
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.footer-bar>ul{
+    margin: 4rem;
+    list-style-type: none;
+}
+
+li>h3{
+    margin-bottom: 1rem;
+}
+
+li{
+    margin-top: 0.5rem;
+}
+
+li>a{
+    color: white;
+    text-decoration: none;
+}
+
+.language-select{
+    padding-bottom: 5rem;
+    
+}
+
+.language-select>a{
+    color: gray;
+    text-decoration: none;
+    margin-left: 11rem;
+    padding-top: 1rem;
+    border-top: 1px solid gray;
+
+}
+
+li>a:hover{
+    color: gray;
 }
