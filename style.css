@@ -144,7 +144,6 @@ main{
     align-items: stretch;
 
     border: 1px solid black;
-    padding: 1rem;
 }
 
 .third:last-child{
@@ -153,9 +152,13 @@ main{
 
 .col-3>*{
     margin-bottom: 1.5rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
 }
 
 .col-name{
+    width: 100%;
+    margin: 1rem 0;
     text-align: center;
     border-bottom: 1px solid black;
     padding-bottom: 1rem;
@@ -169,18 +172,14 @@ main{
 .container-large{
     width: 70%;
     border: 1px solid black;
-    margin-top: 3rem;
+    margin: 3rem;
     display: flex;
     flex-direction: column;
 }
 
-.container-large>button{
-    margin-top: 1rem;
-    margin-right: 1rem;
-    margin-bottom: 4rem;
-    padding: 1rem;
-    flex-grow: 2;
-    padding: 1rem;
+.container-large>.col-name{
+    width: 100%;
+    
 }
 
 .container-large>.left{
@@ -190,4 +189,86 @@ main{
 
 .container-large>.bottom{
     display: flex;
+    
+}
+
+.bottom>*{
+    margin: 1rem;
+}
+
+.bottom>.left>h3,
+.bottom>.left>h4{
+    padding-bottom: 2rem;
+}
+
+.bottom>.blue{
+    width: 30%;
+    padding: 0.5rem;
+    margin: 1rem;
+    align-self: flex-start;
+}
+
+.partner>.text-right{
+    width: 50%;
+    margin: 2rem;
+}
+
+.text-right>*{
+    margin: 2rem 0;
+}
+
+.bordered{
+    border: 1px solid gray
+}
+
+.vertical{
+    margin-top: 5rem;
+    flex-direction: column;
+}
+
+.cards{
+    margin: 5rem 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+.card{
+    width: 30%;
+}
+
+.card>p{
+    margin: 1rem 0;
+}
+
+.designit{
+    display: flex;
+}
+
+.companies{
+    width: 33%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.company{
+    height: 50%;
+    width: 50%;
+    padding: 4rem;
+    background-color: aqua;
+}
+
+.designit-logo{
+    width: 33%;
+    background-color: whitesmoke;
+}
+
+.designit-logo>*{
+    margin: 2rem;
+    font-size: smaller;
+}
+
+.designit-logo>img{
+    width: 40%;
+
 }
