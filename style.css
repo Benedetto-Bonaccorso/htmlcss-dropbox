@@ -174,10 +174,10 @@ main{
 
 .col-name{
     width: 100%;
-    margin: 1rem 0;
+    margin: 0.5rem 0;
     text-align: center;
     border-bottom: 1px solid black;
-    padding-bottom: 1rem;
+    padding-bottom: 0.5rem;
 }
 
 .price{
@@ -284,6 +284,7 @@ main{
 
 .clienti>h2{
     margin-bottom: 3rem;
+
 }
 
 .designit{
@@ -415,4 +416,17 @@ li>a{
 
 li>a:hover{
     color: gray;
+}
+
+.language-select:not(:hover)>.languages{
+    display: none;
+}
+
+.languages{
+    padding-top: 0.5rem;
+}
+
+.languages>ul{
+    padding-left: 1rem;
+    list-style-type: none;
 }
