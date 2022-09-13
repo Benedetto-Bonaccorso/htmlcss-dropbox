@@ -89,6 +89,10 @@ main{
     padding: 5rem 0;
 }
 
+.section>h1{
+    font-size: larger;
+}
+
 .azure-container>.section{
 
     position: relative;
@@ -150,6 +154,10 @@ main{
     border: 1px solid black;
 }
 
+.col-3>h3{
+    font-size: 25px;
+}
+
 .third:last-child{
     margin-bottom: auto;
 }
@@ -172,12 +180,24 @@ main{
     padding-bottom: 1rem;
 }
 
+.price{
+    font-weight: bolder;
+}
+
+.cadency{
+    color: gray;
+}
+
 .indented-text{
     display: flex
 }
 
 .indented-text>p{
     margin-right: 0.5rem;
+}
+
+.blue-icon{
+    color: var(--blue);
 }
 
 .spacer{
